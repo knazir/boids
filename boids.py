@@ -159,7 +159,7 @@ def main():
     figure_animation = animation.FuncAnimation(figure, tick, fargs=(points, beak, boids), interval=ANIMATION_INTERVAL)
 
     # Add event handler
-    click = figure.canvas.mpl_connect('button_press_event', boids.button_press)
+    figure.canvas.mpl_connect('button_press_event', boids.button_press)
 
     plot.show()
 
