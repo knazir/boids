@@ -1,0 +1,10 @@
+# Compiled files
+build/
+dist/
+*.pyc
+
+# PyCharm
+.idea/
+
+# OSX
+.DS_Store/
