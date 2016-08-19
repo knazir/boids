@@ -12,3 +12,5 @@ book, "Python Playground."
 Controls:
 - Left-click: Spawn a boid traveling in a random direction.
 - Right-click: Deflect all boids away from the location of your click.
+
+Click [here](http://imgur.com/JrjStfm) to see an example of the simulation in action.
